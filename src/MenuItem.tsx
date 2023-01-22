@@ -54,7 +54,7 @@ export const MenuItem: React.FC<MenuItemProps> = ({name, price, image = noPictur
             -1
           </IconButton>
           <IconButton onClick={reset} aria-label="rest" size="large">
-            Reset
+            ↺
           </IconButton>
         </Box>
       </Box>
