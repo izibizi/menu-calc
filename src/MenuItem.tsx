@@ -15,6 +15,19 @@ export interface MenuItemProps {
 }
 
 export const MenuItem: React.FC<MenuItemProps> = ({name, price, image = noPicture}: MenuItemProps) => {
+    const [count, setCount] = React.useState(0)
+    function plus_1() {
+        setCount(count + 1)
+    }
+    function minus_1() {
+        if (count > 0) {
+            setCount(count - 1)
+        }
+        
+    }
+    function reset() {
+        setCount(0)
+    }
   return (
     // <div>{name} costs {price} CHF</div>
     <Card sx={{ display: 'flex', borderRadius: 5, margin: 1 }}>
@@ -26,19 +39,22 @@ export const MenuItem: React.FC<MenuItemProps> = ({name, price, image = noPictur
           <Typography variant="subtitle1" color="text.secondary" component="div">
            {price} CHF
           </Typography>
-          <Typography variant="h4" component="div">
-           0 {/* Todo: Use counter */}
+          <Typography variant="h4" component="span">
+           {count}
+          </Typography>
+          <Typography variant="subtitle1" color="text.secondary" component="span" sx={{ margin: 1}}>
+           {count * price} CHF
           </Typography>
         </CardContent>
         <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
-          <IconButton aria-label="plus_1">
-            +1 {/* Todo: Counter +1 */}
+          <IconButton onClick={plus_1} aria-label="plus_1" size="large">
+            +1
           </IconButton>
-          <IconButton aria-label="minus_1">
-            -1 {/* Todo: Counter -1 */}
+          <IconButton onClick={minus_1} aria-label="minus_1" size="large">
+            -1
           </IconButton>
-          <IconButton aria-label="rest">
-            Reset {/* Todo: Reset counter */}
+          <IconButton onClick={reset} aria-label="rest" size="large">
+            Reset
           </IconButton>
         </Box>
       </Box>
