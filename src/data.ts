@@ -9,7 +9,7 @@ interface Data {
 }
 
 
-export const data = {
+export const data: Data = {
     menuItems: [
         {
             name: "Bier",
