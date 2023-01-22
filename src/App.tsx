@@ -1,26 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import * as React from 'react';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import Link from '@mui/material/Link';
+import { MenuItem } from './MenuItem';
+import { data } from './data'
 
-function App() {
+function Copyright() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Typography variant="body2" color="text.secondary" align="center">
+      {'Copyright © '}
+      <Link color="inherit" href="https://ubaumann.ch">
+        Urs's Bastelegge
+      </Link>{' '}
+      {new Date().getFullYear()}.
+    </Typography>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <Container maxWidth="sm">
+      <Box sx={{ my: 4 }}>
+        <Typography variant="h4" component="h1" gutterBottom>
+          Menu Calculator
+        </Typography>
+        {/* <ProTip /> */}
+        {data.menuItems.map((item, i) => {
+          return (
+            <MenuItem
+              name={item.name}
+              price={item.price}
+              image={item.image}
+            />  
+          );
+        })}
+        <MenuItem name={"Bier"} price={5} />
+        <MenuItem name={"Mineral"} price={4} />
+        <MenuItem name={"Wein"} price={15} />
+
+        {/* Todo: Total and maybe list of order */}
+        {/* Todo: reset all button */}
+
+        <Copyright />
+      </Box>
+    </Container>
+  );
+}
