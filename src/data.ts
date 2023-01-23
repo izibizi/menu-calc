@@ -4,7 +4,7 @@ import lagerImg from './img/lager-hell.webp'
 import colaImg from './img/cola.jpg'
 
 
-interface Data {
+type Data = {
     menuItems: MenuItemProps[]
 }
 
@@ -14,7 +14,7 @@ export const data: Data = {
         {
             name: "Bier",
             price: 5,
-            image: lagerImg
+            image: lagerImg,
         },
         {
             name: "Cola",
@@ -23,7 +23,7 @@ export const data: Data = {
         },
         {
             name: "Mineral",
-            price: 4,
+            price: 3.5,
             // image: colaImg
         }
     ]
