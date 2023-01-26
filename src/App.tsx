@@ -3,8 +3,9 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
-import { MenuItem } from './MenuItem';
-import { data } from './data'
+
+import { Menu } from './MenuItem';
+
 
 function Copyright() {
   return (
@@ -18,6 +19,7 @@ function Copyright() {
   );
 }
 
+
 export default function App() {
   return (
     <Container maxWidth="sm">
@@ -26,18 +28,8 @@ export default function App() {
           Menu Calculator
         </Typography>
         {/* <ProTip /> */}
-        {data.menuItems.map((item, i) => {
-          return (
-            <MenuItem
-              name={item.name}
-              price={item.price}
-              image={item.image}
-            />  
-          );
-        })}
-        <MenuItem name={"Bier"} price={5} />
-        <MenuItem name={"Mineral"} price={4} />
-        <MenuItem name={"Wein"} price={15} />
+
+        <Menu />
 
         {/* Todo: Total and maybe list of order */}
         {/* Todo: reset all button */}
