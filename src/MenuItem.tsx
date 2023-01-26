@@ -97,12 +97,13 @@ type MenuItemCounterProps = MenuItemProps & CounterAddon
 
 
 export const Menu: React.FC = () => {
-  const [cart, setCart] = React.useState<Array<MenuItemCounterProps>>(initItemList() || [])
+  const [cart, setCart] = React.useState<Array<MenuItemCounterProps>>(initItemList())
   return (
     <>
       {cart.map((item, i) => {
         return (
           <MenuItem
+            key={item.key}
             name={item.name}
             price={item.price}
             image={item.image}
@@ -167,8 +168,9 @@ export const MenuSummary: React.FC<MenuSummaryProps> = ({ cart, setCart }) => {
             {cart.map((item) => {
               if (item.count > 0) {
                 return (
-                  <ListItem>
+                  <ListItem key={item.key}>
                     <ListItemText
+                      key={item.key}
                       primary={item.name}
                       secondary={item.count + " * " + item.price + " CHF = " + item.count * item.price}
                     />
@@ -186,7 +188,7 @@ export const MenuSummary: React.FC<MenuSummaryProps> = ({ cart, setCart }) => {
         <TextField fullWidth label="Table" id="table" sx={{ marginBottom: 3 }} />
         <Divider><Typography variant='subtitle2'>All</Typography></Divider>
         <IconButton onClick={() => {
-          setCart(initItemList() || [])
+          setCart(initItemList())
         }}
           aria-label="rest" size="large">
           ↺
