@@ -78,7 +78,7 @@ export const MenuItem: React.FC<Props> = ({ name, price, image = noPicture, coun
       </Box>
       <CardMedia
         component="img"
-        sx={{ width: 151 }}
+        sx={{ height: 140 }}
         image={image}
         alt={name}
       />
