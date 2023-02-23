@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/menu-calc/static/css/main.36d8fc17.css",
-    "main.js": "/menu-calc/static/js/main.75ed5219.js",
+    "main.js": "/menu-calc/static/js/main.52a09ba2.js",
     "static/js/787.a53103d4.chunk.js": "/menu-calc/static/js/787.a53103d4.chunk.js",
+    "static/media/hackbraten.jpg": "/menu-calc/static/media/hackbraten.020f5f251e4742c2b46e.jpg",
     "static/media/biberflade.jpg": "/menu-calc/static/media/biberflade.015ba2074f4da3458369.jpg",
     "static/media/rivella-rot.png": "/menu-calc/static/media/rivella-rot.d8ac240aa14ab6fb1420.png",
     "static/media/AppenzellerRahmlikoer.png": "/menu-calc/static/media/AppenzellerRahmlikoer.b022db47ec43217d9d47.png",
     "static/media/Appenzeller_Flasche.png": "/menu-calc/static/media/Appenzeller_Flasche.aa82d25b9305b611094a.png",
     "static/media/luz.png": "/menu-calc/static/media/luz.d37b3b9c224750321af8.png",
+    "static/media/soup.jpeg": "/menu-calc/static/media/soup.b94a3f4941a2baba123f.jpeg",
+    "static/media/vegi.jpg": "/menu-calc/static/media/vegi.21a42eb33501707df474.jpg",
     "static/media/coffee.jpg": "/menu-calc/static/media/coffee.2a007bc97399d093ed10.jpg",
     "static/media/white_wine.jpg": "/menu-calc/static/media/white_wine.70c6ed6431859bec36f2.jpg",
     "static/media/red_wine.jpg": "/menu-calc/static/media/red_wine.d7452fc9e8df8310b2d8.jpg",
@@ -61,11 +64,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/menu-calc/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/menu-calc/index.html",
     "main.36d8fc17.css.map": "/menu-calc/static/css/main.36d8fc17.css.map",
-    "main.75ed5219.js.map": "/menu-calc/static/js/main.75ed5219.js.map",
+    "main.52a09ba2.js.map": "/menu-calc/static/js/main.52a09ba2.js.map",
     "787.a53103d4.chunk.js.map": "/menu-calc/static/js/787.a53103d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36d8fc17.css",
-    "static/js/main.75ed5219.js"
+    "static/js/main.52a09ba2.js"
   ]
 }
