@@ -23,6 +23,9 @@ import luzImg from './img/luz.png'
 import biberfladenImg from './img/biberflade.jpg'
 import appenzellerImg from './img/Appenzeller_Flasche.png'
 import rahmlikoerImg from './img/AppenzellerRahmlikoer.png'
+import hackbratenImg from './img/hackbraten.jpg'
+import soupImg from './img/soup.jpeg'
+import vegiImg from './img/vegi.jpg'
 
 
 type Data = {
@@ -150,14 +153,17 @@ export const data: Data = {
         {
             name: "Hackbraten",
             price: 22,
+            image: hackbratenImg
         },
         {
             name: "Gemüsestrudel",
             price: 18,
+            image: vegiImg
         },
         {
             name: "Tagessuppe",
             price: 6,
+            image: soupImg
         },
     ]
 }
