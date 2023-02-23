@@ -147,5 +147,17 @@ export const data: Data = {
             price: 6,
             image: rahmlikoerImg
         },
+        {
+            name: "Hackbraten",
+            price: 22,
+        },
+        {
+            name: "Gemüsestrudel",
+            price: 18,
+        },
+        {
+            name: "Tagessuppe",
+            price: 6,
+        },
     ]
 }
