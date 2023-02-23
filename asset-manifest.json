@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/menu-calc/static/css/main.36d8fc17.css",
-    "main.js": "/menu-calc/static/js/main.d1334f23.js",
+    "main.js": "/menu-calc/static/js/main.75ed5219.js",
     "static/js/787.a53103d4.chunk.js": "/menu-calc/static/js/787.a53103d4.chunk.js",
     "static/media/biberflade.jpg": "/menu-calc/static/media/biberflade.015ba2074f4da3458369.jpg",
     "static/media/rivella-rot.png": "/menu-calc/static/media/rivella-rot.d8ac240aa14ab6fb1420.png",
@@ -61,11 +61,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/menu-calc/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/menu-calc/index.html",
     "main.36d8fc17.css.map": "/menu-calc/static/css/main.36d8fc17.css.map",
-    "main.d1334f23.js.map": "/menu-calc/static/js/main.d1334f23.js.map",
+    "main.75ed5219.js.map": "/menu-calc/static/js/main.75ed5219.js.map",
     "787.a53103d4.chunk.js.map": "/menu-calc/static/js/787.a53103d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36d8fc17.css",
-    "static/js/main.d1334f23.js"
+    "static/js/main.75ed5219.js"
   ]
 }
