@@ -1,13 +1,34 @@
 {
   "files": {
     "main.css": "/menu-calc/static/css/main.36d8fc17.css",
-    "main.js": "/menu-calc/static/js/main.43a58651.js",
+    "main.js": "/menu-calc/static/js/main.d1334f23.js",
     "static/js/787.a53103d4.chunk.js": "/menu-calc/static/js/787.a53103d4.chunk.js",
-    "static/media/cola.jpg": "/menu-calc/static/media/cola.6667d5032f33f37ca24c.jpg",
+    "static/media/biberflade.jpg": "/menu-calc/static/media/biberflade.015ba2074f4da3458369.jpg",
+    "static/media/rivella-rot.png": "/menu-calc/static/media/rivella-rot.d8ac240aa14ab6fb1420.png",
+    "static/media/AppenzellerRahmlikoer.png": "/menu-calc/static/media/AppenzellerRahmlikoer.b022db47ec43217d9d47.png",
+    "static/media/Appenzeller_Flasche.png": "/menu-calc/static/media/Appenzeller_Flasche.aa82d25b9305b611094a.png",
+    "static/media/luz.png": "/menu-calc/static/media/luz.d37b3b9c224750321af8.png",
+    "static/media/coffee.jpg": "/menu-calc/static/media/coffee.2a007bc97399d093ed10.jpg",
+    "static/media/white_wine.jpg": "/menu-calc/static/media/white_wine.70c6ed6431859bec36f2.jpg",
+    "static/media/red_wine.jpg": "/menu-calc/static/media/red_wine.d7452fc9e8df8310b2d8.jpg",
+    "static/media/schorle.jpg": "/menu-calc/static/media/schorle.fcdc76176f5cbf17f208.jpg",
+    "static/media/mineral_mit.jpg": "/menu-calc/static/media/mineral_mit.7c755108f8fa8d2bcfd5.jpg",
+    "static/media/eistee.jpg": "/menu-calc/static/media/eistee.44d5de5bc071e96d6612.jpg",
+    "static/media/alkoholfrei.webp": "/menu-calc/static/media/alkoholfrei.4ab4a2364b8233831094.webp",
     "static/media/roboto-all-500-normal.woff": "/menu-calc/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "/menu-calc/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "/menu-calc/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
     "static/media/roboto-all-300-normal.woff": "/menu-calc/static/media/roboto-all-300-normal.168d6383e73339293ac3.woff",
+    "static/media/citro.jpg": "/menu-calc/static/media/citro.40bf2b60c328aa97d77d.jpg",
+    "static/media/red_wine_glass.jpg": "/menu-calc/static/media/red_wine_glass.598c759f39aaa0bb293a.jpg",
+    "static/media/panache.webp": "/menu-calc/static/media/panache.265b1106fb42ee97e7ff.webp",
+    "static/media/cola_zero.jpg": "/menu-calc/static/media/cola_zero.9f21859bc36e88a74ebd.jpg",
+    "static/media/grapefruit_neu.webp": "/menu-calc/static/media/grapefruit_neu.2543c9baa80ed4b0dac7.webp",
+    "static/media/Moehl_SaftvomFass_mit.webp": "/menu-calc/static/media/Moehl_SaftvomFass_mit.f2c57e0d941623fcc20b.webp",
+    "static/media/mineral_ohne.jpg": "/menu-calc/static/media/mineral_ohne.97731838359da6248d48.jpg",
+    "static/media/Moehl_SaftvomFass_alkoholfrei.webp": "/menu-calc/static/media/Moehl_SaftvomFass_alkoholfrei.d90e9b4fb626ed127310.webp",
+    "static/media/cola.jpg": "/menu-calc/static/media/cola.75f117101f9db5dbdcfb.jpg",
+    "static/media/white_wine_glass.jpg": "/menu-calc/static/media/white_wine_glass.04a85f4f27c7cf553cd8.jpg",
     "static/media/lager-hell.webp": "/menu-calc/static/media/lager-hell.05cfbbd4951905fc2e2f.webp",
     "static/media/roboto-latin-500-normal.woff2": "/menu-calc/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/menu-calc/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
@@ -40,11 +61,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/menu-calc/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/menu-calc/index.html",
     "main.36d8fc17.css.map": "/menu-calc/static/css/main.36d8fc17.css.map",
-    "main.43a58651.js.map": "/menu-calc/static/js/main.43a58651.js.map",
+    "main.d1334f23.js.map": "/menu-calc/static/js/main.d1334f23.js.map",
     "787.a53103d4.chunk.js.map": "/menu-calc/static/js/787.a53103d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36d8fc17.css",
-    "static/js/main.43a58651.js"
+    "static/js/main.d1334f23.js"
   ]
 }
