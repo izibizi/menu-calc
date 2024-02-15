@@ -151,12 +151,12 @@ export const data: Data = {
             image: rahmlikoerImg
         },
         {
-            name: "Hackbraten",
+            name: "Schweinsnierstückbraten",
             price: 22,
             image: hackbratenImg
         },
         {
-            name: "Gemüsestrudel",
+            name: "Gemüselasagne",
             price: 18,
             image: vegiImg
         },
@@ -164,6 +164,10 @@ export const data: Data = {
             name: "Tagessuppe",
             price: 6,
             image: soupImg
+        },
+        {
+            name: "Diverse Kuchen",
+            price: 2.5
         },
     ]
 }
