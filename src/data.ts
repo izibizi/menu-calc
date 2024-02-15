@@ -161,6 +161,10 @@ export const data: Data = {
             image: vegiImg
         },
         {
+            name: "Gratin",
+            price: 15
+        },
+        {
             name: "Tagessuppe",
             price: 6,
             image: soupImg
