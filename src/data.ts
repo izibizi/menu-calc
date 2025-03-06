@@ -169,9 +169,9 @@ export const data: Data = {
             price: 6,
             image: soupImg
         },
-        // {
-        //     name: "Diverse Kuchen",
-        //     price: 2.5
-        // },
+        {
+            name: "Diverse Kuchen",
+            price: 2.5
+        },
     ]
 }
