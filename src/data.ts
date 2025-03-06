@@ -61,17 +61,17 @@ export const data: Data = {
             image: citroImg
         },
         {
-            name: "Rivella rot",
+            name: "Rivella Rot",
             price: 4,
             image: rivellaImg
         },
         {
-            name: "Schorle",
+            name: "Shorley",
             price: 4,
             image: schorleImg
         },
         {
-            name: "Eistee citrone",
+            name: "Eistee Zitrone",
             price: 4,
             image: eisteeImg
         },
@@ -91,37 +91,37 @@ export const data: Data = {
             image: grapefruitImg
         },
         {
-            name: "Schützengold (alkoholfrei)",
+            name: "Schützengarten Alkoholfrei",
             price: 5,
             image: alkoholfreiImg
         },
         {
-            name: "Saft vom Fass (Mit)",
+            name: "Saft mit Alkohol",
             price: 6.50,
             image: saftMitImg
         },
         {
-            name: "Saft vom Fass (Ohne)",
+            name: "Saft ohne Alkohol",
             price: 6.50,
             image: saftOhneImg
         },
         {
-            name: "Herbstgold Weiss 10cl",
+            name: "Herbstgold Weiss 1dl",
             price: 6,
             image: whiteWineGlassImg
         },
         {
-            name: "Herbstgold Weiss 50cl",
+            name: "Herbstgold Weiss 5dl",
             price: 21,
             image: whiteWineImg
         },
         {
-            name: "Herbstgold Rot 10cl",
+            name: "Herbstgold Rot 1dl",
             price: 6,
             image: redWineGlassImg
         },
         {
-            name: "Herbstgold Rot 50cl",
+            name: "Herbstgold Rot 5dl",
             price: 21,
             image: redWineImg
         },
@@ -151,27 +151,27 @@ export const data: Data = {
             image: rahmlikoerImg
         },
         {
-            name: "Schweinsnierstückbraten",
+            name: "Hackbraten mit Kartoffelgratin",
             price: 22,
             image: hackbratenImg
         },
         {
-            name: "Gemüselasagne",
+            name: "Gemüsestrudel mit Kartoffelgratin",
             price: 18,
             image: vegiImg
         },
-        {
-            name: "Gratin",
-            price: 15
-        },
+        // {
+        //     name: "Gratin",
+        //     price: 15
+        // },
         {
             name: "Tagessuppe",
             price: 6,
             image: soupImg
         },
-        {
-            name: "Diverse Kuchen",
-            price: 2.5
-        },
+        // {
+        //     name: "Diverse Kuchen",
+        //     price: 2.5
+        // },
     ]
 }
